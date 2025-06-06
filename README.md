@@ -61,10 +61,10 @@ Install the following via Arduino Library Manager:
 ## Contributors
 
 - **Tanushree Waratkar**  
-  [GitHub](https://github.com/tanushreewaratkar) | [LinkedIn](https://linkedin.com/in/tanushreewaratkar)
+  [GitHub](https://github.com/tanushreewaratkar) | [LinkedIn](www.linkedin.com/in/tanushree-waratkar-872a63270)
 
 - **Shivam Rao**  
-  [GitHub](https://github.com/shivam-github-username) | [LinkedIn](https://linkedin.com/in/shivam-linkedin)
+  [GitHub](https://github.com/Sv9r) | [LinkedIn](https://www.linkedin.com/in/shivam-rao-s029788/)
 
 ---
 
