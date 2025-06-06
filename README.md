@@ -1,34 +1,76 @@
-# Smart-Home-Automation-System
-Smart Home Automation using ESP32 with Gesture Sensor, Custom made Touch Sensor, Google Assistant, and App Control to manage AC Bulb and LED, it also features real time data logging using Google Sheets.
+# Smart Home Automation System
+
+An end-to-end IoT-based smart home automation system leveraging ESP32 to enable multi-modal appliance control via **gesture recognition**, **custom capacitive touch**, **Google Assistant integration**, and **mobile app**. The system includes **real-time data logging to Google Sheets**, making it suitable for scalable home or industrial automation solutions.
+
+---
+
+## Key Features
+
+- Multi-modal control: **Gesture**, **Touch**, **Voice (Google Assistant)**, and **Mobile App**
+- **Google Sheets integration** for real-time event logging and monitoring
+- Dual load control: **AC bulb** and **LED** via relay interface
+- Designed with **modular and scalable architecture** using ESP32
+
+---
+
+## Hardware Components
+
+ ESP32 Microcontroller                   
+ APDS9960 Gesture Sensor   
+ Custom Touch Sensor       
+ 2-Channel Relay Module    
+ AC Bulb 
+ LED             
+ Breadboard 
+ Jumper Wires 
+ Electrical insulation cables
+
+---
+
+## Software Setup
+
+### Required Libraries
+
+Install the following via Arduino Library Manager:
+- `WiFi.h`
+- `Wire.h`
+- `Adafruit_APDS9960` or `SparkFun_APDS9960`
+- `SinricPro.h`
+- `ESP_Google_Sheet_Client.h`
+
+### Configuration Steps
+
+1. Set up your Wi-Fi SSID and password in code.
+2. Configure Sinric Pro device credentials for voice/app control.
+3. Generate Google Sheet API credentials and paste them in your code.
+4. Upload the code to ESP32 using Arduino IDE.
+
+---
+
+## System Operation
+
+- **Gesture**: Swipe to toggle devices.
+- **Touch**: Tap DIY sensor to switch loads.
+- **Voice**: Use commands via Google Assistant.
+- **App**: Control devices remotely with Sinric Pro app.
+- **Logging**: All events are recorded with timestamp in a Google Sheet.
+
+---
 
 
+## Contributors
 
-This project is a comprehensive IoT-based Smart Home Automation System. It allows users to control home appliances like an AC Bulb and an LED using multiple intuitive interfaces:
+- **Tanushree Waratkar**  
+  [GitHub](https://github.com/tanushreewaratkar) | [LinkedIn](https://linkedin.com/in/tanushreewaratkar)
 
-- Gesture control via APDS9960 Sensor
-- Touch control using a custom-made touch sensor built with aluminum foil
-- Voice control using Google Assistant
-- Mobile app-based control using the Sinric Pro app
-- Real-time data logging to Google Sheets for monitoring system activity
+- **Shivam Rao**  
+  [GitHub](https://github.com/shivam-github-username) | [LinkedIn](https://linkedin.com/in/shivam-linkedin)
 
- # Hardware Components
+---
 
-- ESP32 Microcontroller (Wi-Fi Enabled)
-- APDS9960 Gesture Sensor
-- Custom Touch Sensor (DIY using aluminum foil)
-- Relay Module
-- AC Bulb
-- LED
-- Breadboad
-- Jumper Wires
-- Insulated Electrical Wires 
-
- # How It Works
-
-1. The ESP32 reads input from the gesture sensor or the DIY touch sensor.
-2. Based on the input, it triggers a relay module to switch the AC Bulb or LED on/off.
-3. Users can also send commands via Google Assistant (linked to Sinric Pro) or the mobile app.
-4. Every control action is logged in real-time to a connected Google Sheet for record-keeping and analysis.
-
-
-
+This project demonstrates practical skills in:
+- Embedded C/C++ and Arduino framework
+- IoT system integration (hardware + cloud)
+- API-based communication and real-time logging
+- End-user interface development (voice and app-based)
+- Technical documentation and modular design practices
