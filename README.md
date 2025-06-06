@@ -69,8 +69,8 @@ Install the following via Arduino Library Manager:
 ---
 
 This project demonstrates practical skills in:
-- Embedded C/C++ and Arduino framework
+- Embedded C++ and Arduino framework
 - IoT system integration (hardware + cloud)
 - API-based communication and real-time logging
 - End-user interface development (voice and app-based)
-- Technical documentation and modular design practices
+
