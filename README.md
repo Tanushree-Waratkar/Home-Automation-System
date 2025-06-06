@@ -61,7 +61,7 @@ Install the following via Arduino Library Manager:
 ## Contributors
 
 - **Tanushree Waratkar**  
-  [GitHub](https://github.com/Tanushree-Waratkar) | [LinkedIn](www.linkedin.com/in/tanushree-waratkar-872a63270)
+  [GitHub](https://github.com/Tanushree-Waratkar) | [LinkedIn](https://www.linkedin.com/in/tanushree-waratkar-872a63270/)
 
 - **Shivam Rao**  
   [GitHub](https://github.com/Sv9r) | [LinkedIn](https://www.linkedin.com/in/shivam-rao-s029788/)
