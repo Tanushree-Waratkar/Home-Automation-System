@@ -15,10 +15,10 @@ An end-to-end IoT-based home automation system leveraging ESP32 to enable multi-
 
 ## Hardware Components
 
- ESP32 Microcontroller                   
- APDS9960 Gesture Sensor   
- Custom Touch Sensor       
- 2-Channel Relay Module    
+ LILYGO TTGO T-Display ESP32 Wi-Fi Bluetooth Development Board                  
+ APDS-9960 Gesture Sensor   
+ Custom Touch Sensor (DIY with Aluminium Foil)       
+ 2-Channel 5V Relay Module with Optocoupler   
  AC Bulb 
  LED             
  Breadboard 
