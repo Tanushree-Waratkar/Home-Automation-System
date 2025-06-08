@@ -1,6 +1,6 @@
-# Smart Home Automation System
+# Home Automation System
 
-An end-to-end IoT-based smart home automation system leveraging ESP32 to enable multi-modal appliance control via **gesture recognition**, **custom capacitive touch**, **Google Assistant integration**, and **mobile app**. The system includes **real-time data logging to Google Sheets**, making it suitable for scalable home or industrial automation solutions.
+An end-to-end IoT-based home automation system leveraging ESP32 to enable multi-modal appliance control via **gesture recognition**, **custom capacitive touch**, **Google Assistant integration**, and **mobile app**. The system includes **real-time data logging to Google Sheets**, making it suitable for scalable home or industrial automation solutions.
 
 ---
 
