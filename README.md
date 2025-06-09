@@ -10,6 +10,7 @@ An end-to-end IoT-based home automation system leveraging ESP32 to enable multi-
 - **Google Sheets integration** for real-time event logging and monitoring
 - Dual load control: **AC bulb** and **LED** via relay interface
 - Designed with **modular and scalable architecture** using ESP32
+- Time Sync using NTP for accurate IST timestamps.
 
 ---
 
@@ -26,6 +27,18 @@ An end-to-end IoT-based home automation system leveraging ESP32 to enable multi-
  Electrical insulation cables
 
 ---
+
+## Pin Connections
+
+| Function           | ESP32 Pin | Description        |
+|--------------------|-----------|--------------------|
+| Relay (Bulb)       | 23        | Active LOW         |
+| Relay (LED)        | 25        | Active LOW         |
+| Touch (Bulb)       | 14        | Capacitive touch   |
+| Touch (LED)        | 27        | Capacitive touch   |
+| I2C SDA (APDS9960) | 21        | I2C Data           |
+| I2C SCL (APDS9960) | 22        | I2C Clock          |
+
 
 ## Software Setup
 
@@ -46,6 +59,15 @@ Install the following via Arduino Library Manager:
 4. Upload the code to ESP32 using Arduino IDE.
 
 ---
+
+## Cloud Setup
+
+| Service       | Required Info                                  | Where to Get It                                  |
+|---------------|------------------------------------------------|--------------------------------------------------|
+| WiFi          | SSID, Password                                 | Your router                                      |
+| SinricPro     | APP_KEY, APP_SECRET, Device IDs                | SinricPro dashboard                              |
+| Google Sheets | Project ID, Client Email, Private Key, Spreadsheet ID | Google Cloud Console & Google Sheet         |
+
 
 ## System Operation
 
